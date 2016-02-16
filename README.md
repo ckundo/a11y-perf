@@ -8,7 +8,7 @@ When run in Firefox 44.0.2 against the page, the libraries performed thusly:
 
 - Accessibilty Developer Tools: 618.7599999999984 milliseconds
 - HTML Code Sniffer: 274.5199999999995 milliseconds
-- aXe 931.7999999999302: milliseconds
+- aXe 931.7999999999302 milliseconds
 
 It's hard to draw meaningful performance comparisons amongst accessibility
 testing libraries, since the coverage and types of tests vary widely amongst
