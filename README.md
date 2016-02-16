@@ -1,8 +1,5 @@
 ## How do Accessibility Testing Libraries Perform in the Browser?
 
-**TL;DR These libraries need performance improvements before they can be included in a
-large scale production application.**
-
 Here's a [test page](http://about.ckundo.com/a11y-perf/) to benchmark 
 performance of [Deque's aXe-core](https://github.com/dequelabs/axe-core), 
 [Google's Accessibility Developer Tools](https://github.com/googlechrome/accessibility-developer-tools),
