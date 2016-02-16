@@ -1,0 +1,24 @@
+{
+  "name": "a11y-perf",
+  "version": "1.0.0",
+  "description": "Test page to benchmark performance of Deque's aXe-core, Google's Accessibility Developer Tools, and SquizLabs HTML CodeSniffer.",
+  "main": "index.js",
+  "dependencies": {
+    "accessibility-developer-tools": "^2.10.0",
+    "axe-core": "^1.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ckundo/a11y-perf.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ckundo/a11y-perf/issues"
+  },
+  "homepage": "https://github.com/ckundo/a11y-perf#readme"
+}
