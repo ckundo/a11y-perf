@@ -1,8 +1,8 @@
 ## Accessibility Testing Library Performance
 
-This is a test page to benchmark performance of [Deque's aXe-core](dequelabs/axe-core), 
-[Google's Accessibility Developer Tools](googlechrome/accessibility-developer-tools),
-and [SquizLabs HTML CodeSniffer](squizlabs/HTML_CodeSniffer).
+This is a test page to benchmark performance of [Deque's aXe-core](https://github.com/dequelabs/axe-core), 
+[Google's Accessibility Developer Tools](https://github.com/googlechrome/accessibility-developer-tools),
+and [SquizLabs HTML CodeSniffer](https://github.com/squizlabs/HTML_CodeSniffer).
 
 When run in Firefox 44.0.2 against the page, the libraries performed thusly:
 
