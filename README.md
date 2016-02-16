@@ -5,7 +5,10 @@ performance of [Deque's aXe-core](https://github.com/dequelabs/axe-core),
 [Google's Accessibility Developer Tools](https://github.com/googlechrome/accessibility-developer-tools),
 and [SquizLabs HTML CodeSniffer](https://github.com/squizlabs/HTML_CodeSniffer).
 
-When run in Firefox 44.0.2 against the page, the libraries performed thusly:
+I used this page to time execution and to use Firefox's Performance Toolbar to
+evaluate performance issues.
+
+When run in Firefox 44.0.2 against the page, the libraries finished execution at the following speeds:
 
 - Accessibilty Developer Tools: 618.7599999999984 milliseconds
 - HTML Code Sniffer: 274.5199999999995 milliseconds
