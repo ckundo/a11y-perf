@@ -1,5 +1,8 @@
 ## How do Accessibility Testing Libraries Perform in the Browser?
 
+**TL;DR These libraries need performance improvements before they can be included in a
+large scale production application.**
+
 Here's a [test page](http://about.ckundo.com/a11y-perf/) to benchmark 
 performance of [Deque's aXe-core](https://github.com/dequelabs/axe-core), 
 [Google's Accessibility Developer Tools](https://github.com/googlechrome/accessibility-developer-tools),
@@ -14,11 +17,15 @@ When run in Firefox 44.0.2 against the page, the libraries finished execution at
 - HTML Code Sniffer: 274.5199999999995 milliseconds
 - aXe 931.7999999999302 milliseconds
 
+## Caveat
+
 It's hard to draw meaningful performance comparisons amongst accessibility
 testing libraries, since the coverage and types of tests vary widely amongst
 them. At the very least we can see that on a complex page any of these libraries
-will bring the framerate to 0 for at least a couple hundred milliseconds.
+will bring the framerate to close to 0 for at least a couple hundred milliseconds.
+
+## Credit
 
 The markup and content used for the performance timings comes from
 http://www.html5accessibility.com/html5elements/, created by @ackernaut and
-@ThePacielloGroup
+@ThePacielloGroup.
